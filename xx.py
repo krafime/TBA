@@ -389,9 +389,9 @@ if __name__ == "__main__" :
   st.markdown("<h3 style='text-align: center; color: #ffffff;'>Bahasa Ocu</h3>", unsafe_allow_html=True)
   st.markdown("<h6 style='text-align: center; color: #ffffff;'>grammar = [subject] [verb] [object]</h6>", unsafe_allow_html=True)
 
-  st.write("<subject> := ang | inyo | den")
-  st.write("<verb> := lolok | poi | bakojo | manunggu | ngambiok | ngajau")
-  st.write("<object> := sonduok | oto | lawuok | guntiong | pinggan")
+  st.text("<subject>\t:= ang | inyo | den")
+  st.text("<verb>\t\t:= lolok | poi | bakojo | manunggu | ngambiok | ngajau")
+  st.text("<object>\t:= sonduok | oto | lawuok | guntiong | pinggan")
 
   sentence = st.text_input("", placeholder="Input here!")
   input_string = sentence.lower() + "#"
